@@ -9,18 +9,43 @@ header {
     padding: 30px;
     text-align: left;
     color: white;
+
+    position: sticky;
 }
 
 section {
     background-color: #1075ff;
-    padding: 30px;
-    text-align: middle;
+    padding: 20px;
+    padding-left: 50px;
     color: white;
+}
+
+.article {
+    background-color: #1075ff;
+}
+
+.video {
+    background-color: #1075ff;
+    float: left;
+    padding: 40px;
+    margin: 0px;
+}
+
+.videotext {
+    background-color: #1075ff;
+    float: left;
+    padding: 40px;
+    margin: 0px;
+    width: calc(100% - 840px - 120px);
+    height: 454px;
 }
 
 footer {
     background-color: #1050aa;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
     text-align: center;
     color: black;
+    width: 100%;
 }
