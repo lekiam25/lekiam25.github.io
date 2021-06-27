@@ -4,14 +4,14 @@ body {
 }
 
 header {
-    background-color: #1245ba;
+    background-color: #1050aa;
     padding: 30px;
     text-align: left;
-    color: black;
+    color: white;
 }
 
 footer {
-    background-color: #3ea2f4;
+    background-color: #1050aa;
     padding: 30px;
     text-align: center;
     color: black;
