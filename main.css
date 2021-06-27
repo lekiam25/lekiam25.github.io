@@ -1,17 +1,17 @@
 body {
-/*    background-color: steelblue;*/
+    /*    background-color: steelblue;*/
     font-family: sans-serif;
 }
 
 header {
-    background-color: deepskyblue;
+    background-color: #1245ba;
     padding: 30px;
     text-align: left;
     color: black;
 }
 
 footer {
-    background-color: darkslateblue;
+    background-color: #3ea2f4;
     padding: 30px;
     text-align: center;
     color: black;
