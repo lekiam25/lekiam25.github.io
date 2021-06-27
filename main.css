@@ -1,51 +1,77 @@
 body {
-    /*    background-color: steelblue;*/
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Rubik';
+    color: #034f84;
+}
+
+h1 {
+    font-size: 400%;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 350%;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 300%;
+    margin: 0px;
+}
+
+p {
+    font-size: 30px;
 }
 
 header {
-    background-color: #1050aa;
+    background-color: #034f84;
     padding: 30px;
     text-align: left;
-    color: white;
+    color: #f7cac9;
 
     position: sticky;
 }
 
-section {
-    background-color: #1075ff;
-    padding: 20px;
-    padding-left: 50px;
-    color: white;
+hr {
+    border: 8px solid #92a8d1;
+    margin: 0px;
+}
+
+.introduction {
+    background-color: #f7cac9;
+    padding: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
 }
 
 .article {
-    background-color: #1075ff;
+    background-color: #f7cac9;
 }
 
 .video {
-    background-color: #1075ff;
+    background-color: #f7cac9;
     float: left;
     padding: 40px;
     margin: 0px;
 }
 
 .videotext {
-    background-color: #1075ff;
+    background-color: #f7cac9;
     float: left;
     padding: 40px;
+    padding-top: 80px;
     margin: 0px;
     width: calc(100% - 840px - 120px);
-    height: 454px;
+    height: 418px;
 }
 
 footer {
-    background-color: #1050aa;
+    background-color: #f7786b;
     padding-top: 30px;
     padding-bottom: 30px;
     float: left;
     text-align: center;
-    color: black;
+    color: #92a8d1;
     width: 100%;
 }
