@@ -28,8 +28,6 @@ header {
     padding: 30px;
     text-align: left;
     color: #f7cac9;
-
-    position: sticky;
 }
 
 hr {
@@ -68,10 +66,15 @@ hr {
 
 footer {
     background-color: #f7786b;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     float: left;
     text-align: center;
     color: #92a8d1;
     width: 100%;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
 }
