@@ -10,6 +10,13 @@ header {
     color: white;
 }
 
+section {
+    background-color: #1075ff;
+    padding: 30px;
+    text-align: middle;
+    color: white;
+}
+
 footer {
     background-color: #1050aa;
     padding: 30px;
