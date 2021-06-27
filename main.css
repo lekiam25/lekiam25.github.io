@@ -3,10 +3,16 @@ body {
     font-family: sans-serif;
 }
 
-h1 {
+header {
+    background-color: deepskyblue;
+    padding: 30px;
+    text-align: left;
     color: black;
 }
 
-p {
+footer {
+    background-color: darkslateblue;
+    padding: 30px;
+    text-align: center;
     color: black;
 }
