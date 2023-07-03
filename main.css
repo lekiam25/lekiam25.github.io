@@ -1,61 +1,106 @@
 body {
     margin: 0;
     font-family: 'Rubik';
-    color: #034f84;
+    color: #0e111a;
+    background-color: #feffea;
 }
 
 h1 {
-    font-size: 400%;
+    font-size: 350%;
     margin: 0px;
 }
 
 h2 {
     font-size: 350%;
     margin: 0px;
+    color: #e94957;
 }
 
 h3 {
     font-size: 300%;
     margin: 0px;
+    color: #e94957;
 }
 
 p {
     font-size: 30px;
 }
 
-header {
-    background-color: #034f84;
-    padding: 30px;
-    text-align: left;
-    color: #f7cac9;
+.introduction b {
+    color: #e94957;
 }
 
-hr {
-    border: 8px solid #92a8d1;
-    margin: 0px;
+.videotext b {
+    color: #e94957;
+}
+
+header {
+    background-color: #2d60b4;
+    text-align: left;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.header-left {
+    flex-grow: 1;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #0e111a;
+}
+
+.header-right img {
+    margin-left: 20px;
+}
+
+.header-right p {
+    margin-right: 20px;
+}
+
+.profile-picture {
+    float: left;
+    margin-right: 100px;
+}
+
+.profile-picture img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .introduction {
-    background-color: #f7cac9;
-    padding: 30px;
+    padding: 250px;
+    padding-bottom: 350px;
     padding-left: 120px;
     padding-right: 120px;
     text-align: center;
 }
 
-.article {
-    background-color: #f7cac9;
-}
-
 .video {
-    background-color: #f7cac9;
     float: left;
     padding: 40px;
     margin: 0px;
 }
 
 .videotext {
-    background-color: #f7cac9;
     float: left;
     padding: 40px;
     padding-top: 80px;
@@ -65,16 +110,28 @@ hr {
 }
 
 footer {
-    background-color: #f7786b;
+    background-color: #2d60b4;
     padding-top: 20px;
     padding-bottom: 20px;
-    float: left;
     text-align: center;
-    color: #92a8d1;
     width: 100%;
 }
 
 .footer {
-    position: sticky;
-    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0e111a;
+}
+
+.footer img {
+    margin-left: 20px;
+}
+
+.footer p {
+    margin-right: 20px;
 }
